@@ -1,0 +1,83 @@
+body{
+    background-repeat: no-repeat;
+    background-size: cover;
+    animation:move 1s infinite;
+}
+@keyframes move{
+
+    0%{
+        background-image: url('https://st4.depositphotos.com/24261740/31493/i/600/depositphotos_314939256-stock-photo-trend-gradient-from-violet-to.jpg');
+
+    }
+    100%{
+        background-image: url('https://i.pinimg.com/236x/f7/06/97/f706974e6430ec98132620de92d771b4.jpg');
+    }
+
+}
+
+.calc{
+    height: 400px;
+    width: 350px;
+    margin:auto;
+    margin-top:10%;
+    box-shadow: 3px 3px 10px rgb(80, 138, 158);
+    background-color: rgb(30, 62, 94);
+    border-radius:10% 10% 10% 10%;
+}
+.calc,.box{
+    font-size: 25px;
+    color: whitesmoke;
+    padding: 3%;
+    font-family: cursive;
+    text-shadow: 3px 3px 4px  lightblue;
+
+}
+.box input{
+    padding:4%;
+    margin-left: 5%;
+    box-shadow: 3px 3px 10px lightblue;
+    border-radius:10px 10px 10px 10px;
+
+}
+#result,#wait{
+    height:40px;
+    width: fit-content;
+    font-size: 20px;
+    background-color: whitesmoke;
+    border: 2px solid whitesmoke;
+    margin: auto;
+    color:darkcyan;
+    text-align:center;
+    font-weight: bold; 
+    box-shadow: 3px 3px 10px lightblue;
+    margin-top:3%;
+    border-radius:10% 10% 10% 10%;
+}
+
+.btn{
+    margin: auto;  
+    margin-top: 10%;
+    margin-left:10%;
+}
+.btn input{
+    padding: 5%;  
+    font-size:20px;
+    color:darkcyan;
+    font-weight: bold; 
+    box-shadow: 3px 3px 10px lightblue;
+    border-radius:10% 10% 10% 10%;
+    
+}
+.end,button{
+    margin:auto;
+    margin-top: 10%;
+    margin-left:40%;
+}
+.end input{
+    padding: 5%;  
+    font-size:20px;
+    color:darkcyan;
+    font-weight: bold; 
+    box-shadow: 3px 3px 10px lightblue;
+    border-radius:10% 10% 10% 10%;
+}
